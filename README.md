@@ -1,16 +1,17 @@
 
 # Quick fix for language versioned shortcuts (TYPO3 11.5.16)
 
+
+# EDIT 2:
+
+Updated Version is live.
+Fetches Overlay via Connection Pool now. Standard behaviour will be triggered if no overlay can be found.
+
 # EDIT:
 
 After reviewing this code with a clear mind - as rediculous as it sounds - this fix makes no sense at all since it's not changing anything in theory but it's an absolute mystery why it actually works. (Tested on two servers). 
 
 I will provide a better fix in short.
-
-## Induced Bug: 
-language selection does not work properly any longer. Will fix this aswell.
-
-
 
 
 ## The issue:
