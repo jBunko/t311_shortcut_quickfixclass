@@ -1,6 +1,6 @@
 # Quick fix for language versioned shortcuts (TYPO3 11.5.16)
 
-#EDIT:
+# EDIT:
 
 After reviewing this code with a clear mind - as rediculous as it sounds - this fix makes no sense at all, and it's an absolute mystery why it actually works. (Tested on two servers). 
 
