@@ -5,8 +5,10 @@ declare(strict_types=1);
 namespace {VENDOR}\{EXTENSION}\Xclass;
 
 use TYPO3\CMS\Core\Context\Context;
+use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Domain\Repository\PageRepository;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Extbase\Utility\DebuggerUtility;
 
 class PageLinkBuilder extends \TYPO3\CMS\Frontend\Typolink\PageLinkBuilder
 {
