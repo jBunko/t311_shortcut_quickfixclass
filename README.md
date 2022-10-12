@@ -35,7 +35,7 @@ Check the update log and don't forget to remove this afterwards.
 
 ## The fix:
 The function "resolvePage" in class `\TYPO3\CMS\Frontend\Typolink\PageLinkBuilder` receives the page uid from the redirecting page.
-Unfortunately it ~~ignores it's language overlay completly and resolves directly the target page which is set in the language root version.~~  could happen this fuction fetches the data from the page language root version instead of it's overlay.
+Unfortunately it ~~ignores it's language overlay completly and resolves directly the target page which is set in the language parent version.~~  could happen this fuction fetches the data from the page language parent version instead of the overlay.
 
 
 This XClass overrides "resolvePage" only by checking if there exists any language overlay and uses corresponding values for further processing.
